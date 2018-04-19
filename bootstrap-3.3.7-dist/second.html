@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edhe" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<!--
+        	上述三个meta标签必须放在最前面，任何其他内容都必须跟随其后
+        -->
+		<title>第二个测试页面</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="page-header">
+				<h2>
+					动作模块
+				</h2>
+				<p>请按照顺序一次填写一个标准动作所需要的内容，点击执行可以进行测试调试，点击记录将记录在模块组中。</p>
+			</div>
+			<div class="row" style="padding-top: 300px;">
+				<h2>输入框</h2>
+				<p>输入数据并点击即可记录</p>
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="请输入url"/>
+					<span class="input-group-btn">
+						<button type="submit" class="btn btn-default">Go</button>
+					</span>
+				</div>
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="请输入定位元素" />
+					<span class="input-group-btn">
+						<button type="submit" class="btn btn-default">记录</button>
+					</span>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="btn btn-default dropdown-toggle" type="button"  id="dropdownMenu1" data-toggle="dropdown"
+					aria-haspopup="true" aria-expanded="true">
+					选择所需动作
+					<span class="caret"></span>				
+				</button>
+				<ul class="dropdown-menu" aria-labelledbt="dropdownMenu1">
+					<li><a href="#">左键点击</a></li>
+					<li><a href="#">右键点击</a></li>
+					<li role="separator" class="divider"></li>
+					<li><a href="#">获得文本</a></li>
+				</ul>
+			</div>
+			<div class="btn-toolbar" role="toolebar">
+				<div class="btn-group"></div>
+				<div class="btn-group"></div>
+			</div>
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

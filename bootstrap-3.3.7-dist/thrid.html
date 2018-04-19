@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edhe" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<!--
+        	上述三个meta标签必须放在最前面，任何其他内容都必须跟随其后
+        -->
+		<title>Action</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="row" style="padding-top: 100px;">
+				<h2>动作组</h2>
+				<p>请按照顺序一次填写一个标准动作所需要的内容，点击执行可以进行测试调试，点击记录将记录在模块组中。</p>
+			</div>、	
+			<div class="row" style="padding-top: 50px;">
+				<div class="col-md-6 col-lg-6 col-sm-6" style="padding-left: 0px;">
+					<h3>操作</h3>
+					<p>url默认公司测试地址,元素定位默认xpath，操作动作必须填写，断言方式必须填写</p>
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="url" aria-describedby="basic-addon1"/>
+						<span class="input-group-addon" id="basic-addon1">@</span>
+					</div>
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="元素定位" aria-describedby="basic-addon1"/>
+						<span class="input-group-addon" id="basic-addon1">@</span>						
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<p>选择动作</p>
+						<div class="dropdown">
+							<button type="button" class="btn btn-default dropdown-toggle" id="dropdownMenuThrid" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="true">
+							dropdown
+							<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdownThrid">
+								<li><a href="#">左键点击</li>
+								<li><a href="#">右键点击</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<p>选择断言</p>
+						<div class="dropdown">
+							<button type="button" class="btn btn-default dropdown-toggle" id="dropdownMenuThrid2" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="true">
+							dropdown
+							<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdownThrid2">
+								<li><a href="#">左键点击</li>
+								<li><a href="#">右键点击</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-lg-6">
+					<h3>信息</h3>
+					<p>如需更多信息请到文档组查看</p>
+				</div>
+			</div>
+		</div>
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
